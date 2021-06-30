@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "e2e": "cypress open",
-    "one": "cypress run --spec cypress/integration/test/first_test.js --browser chrome"
+    "chrome": "cypress run --spec cypress/integration/test/first_test.js --browser chrome",
+    "firefox": "cypress run --spec cypress/integration/test/first_test.js --browser firefox",
+    "edge": "cypress run --spec cypress/integration/test/first_test.js --browser edge",
   },
   "repository": {
     "type": "git",
