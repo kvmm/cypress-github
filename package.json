@@ -8,7 +8,7 @@
     "e2e": "cypress open",
     "chrome": "cypress run --spec cypress/integration/test/first_test.js --browser chrome",
     "firefox": "cypress run --spec cypress/integration/test/first_test.js --browser firefox",
-    "edge": "cypress run --spec cypress/integration/test/first_test.js --browser edge",
+    "edge": "cypress run --spec cypress/integration/test/first_test.js --browser edge"
   },
   "repository": {
     "type": "git",
